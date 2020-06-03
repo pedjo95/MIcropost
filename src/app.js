@@ -10,6 +10,5 @@
 // console.log(mod.person.name);
 // console.log(mod.sayHello());
 
-import greeting from "./module2";
-
-console.log(greeting);
+// import greeting from "./module2";
+// console.log(greeting);
