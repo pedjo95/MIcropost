@@ -6,14 +6,14 @@
       "body": "This is post one"
     },
     {
-      "id": 2,
-      "title": "Post Two",
-      "body": "This is post Two"
+      "title": "Meditação",
+      "body": "Meditar todos os dias faz bem",
+      "id": 5
     },
     {
-      "id": 3,
-      "title": "Post Three",
-      "body": "This is post Three"
+      "title": "Exercicing",
+      "body": "Exercicing is great for your mind",
+      "id": 6
     }
   ]
 }
