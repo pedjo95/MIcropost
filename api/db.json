@@ -1,11 +1,6 @@
 {
   "post": [
     {
-      "id": 1,
-      "title": "Post One",
-      "body": "This is post one"
-    },
-    {
       "title": "Meditação",
       "body": "Meditar todos os dias faz bem",
       "id": 5

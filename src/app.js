@@ -22,6 +22,9 @@ document.addEventListener("DOMContentLoaded", getPosts);
 // Add posts
 document.querySelector(".post-submit").addEventListener("click", submitPost);
 
+// Delete posts
+document.querySelector("#posts").addEventListener("click", deletePost);
+
 function getPosts() {
   http
     .get("http://localhost:3000/post")
@@ -47,4 +50,23 @@ function submitPost() {
       getPosts();
     })
     .catch((err) => console.log(err));
+}
+
+// delete a post
+function deletePost(e) {
+  e.preventDefault();
+
+  if (e.target.parentElement.classList.contains("delete")) {
+    const id = e.target.parentElement.dataset.id;
+    if (confirm("Are you sure?")) {
+      http
+        .delete(`http://localhost:3000/post/${id}`)
+        .then((data) => {
+          ui.showAlert("Post removed", "alert alert-success");
+
+          getPosts();
+        })
+        .catch((err) => console.log(err));
+    }
+  }
 }
