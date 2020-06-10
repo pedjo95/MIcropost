@@ -1,14 +1,14 @@
 {
   "post": [
     {
-      "title": "Meditação",
-      "body": "Meditar todos os dias faz bem",
-      "id": 5
+      "title": "Post One",
+      "body": "This is body post one djfsfjshdhfsj",
+      "id": 1
     },
     {
-      "title": "Exercicing",
-      "body": "Exercicing is great for your mind",
-      "id": 6
+      "title": "Post Two",
+      "body": "This is body post two",
+      "id": 2
     }
   ]
 }
